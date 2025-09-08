@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* الألوان الرئيسية */
+:root {
+  --yellow: #F4B41A;
+  --orange: #F28C28;
+  --brown: #5A2D0C;
+  --red: #A31621;
+  --dark-gray: #4A4A4A;
+  --light-gray: #F5F5F5;
+}
+
+/* القاعدة العامة */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--light-gray);
+  color: var(--dark-gray);
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* الأزرار */
+button, .btn {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  background: var(--yellow);
+  color: var(--brown);
+  border: none;
+}
+button:hover, .btn:hover {
+  background: var(--orange);
+  color: #fff;
+}
+
+/* الأزرار المميزة (خاصة بالعروض) */
+.btn-red {
+  background: var(--red);
+  color: #fff;
+}
+.btn-red:hover {
+  background: #7A1018;
+}
+
+/* البطاقات */
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 1rem 0;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+/* العناوين */
+h1 {
+  font-size: 2.5rem;
+  color: var(--yellow); /* بارز */
+  font-weight: 800;
+}
+h2 {
+  font-size: 2rem;
+  color: var(--yellow);
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.5rem;
+  color: var(--brown);
+  font-weight: 600;
+}

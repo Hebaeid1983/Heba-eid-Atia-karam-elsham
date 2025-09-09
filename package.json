@@ -1,11 +1,10 @@
 {
-  "name": "karam-elshem-restaurant",
-  "version": "1.0.0",
-  "type": "module",
+  "homepage": "https://Hebaeid1983.github.io/Heba-eid-Atia-karam-elsham/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",

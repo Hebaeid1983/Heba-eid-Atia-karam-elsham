@@ -6,8 +6,9 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/Heba-eid-Atia-karam-elsham/">
-      <App />
-    </BrowserRouter>
+   <BrowserRouter basename="/Heba-eid-Atia-karam-elsham/">
+  <App />
+</BrowserRouter>
+
   </StrictMode>,
 )

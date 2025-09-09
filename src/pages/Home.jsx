@@ -37,18 +37,14 @@ export default function Home() {
               شاورما طازجة، مشويات على الفحم، وصواني تليق بمائدتكم.
             </p>
             <div className="mt-6 flex gap-3">
-              <NavLink
-                to="/menu"
-                className="inline-flex items-center justify-center rounded-xl border border-white/60 px-6 py-3 text-white font-semibold hover:bg-white/10 transition"
-              >
-                تصفح المنيو
-              </NavLink>
-              <NavLink
-                to="/contact"
-                className="inline-flex items-center justify-center rounded-xl border border-white/60 px-6 py-3 text-white font-semibold hover:bg-white/10 transition"
-              >
-                احجز اتصال
-              </NavLink>
+              <NavLink to="/menu" className="btn">
+  تصفح المنيو
+</NavLink>
+<NavLink to="/contact" className="btn">
+  احجز اتصال
+</NavLink>
+
+
             </div>
           </div>
         </div>
